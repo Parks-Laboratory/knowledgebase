@@ -13,7 +13,7 @@ The page named _DB_MSSMS_Tools_ appears in the sidebar as DB/MSSMS/Tools, where 
 
 ### Usage
 1. If you have not done so, clone the wiki: `git clone https://github.com/Parks-Laboratory/knowledgebase.wiki.git`
-1. If you have already cloned the wiki, and have added a new page or re-named a page, update the offline version: `git pull`
+1. After making changes to the online wiki, update the offline version: `git pull`
 1. Next, run `python mkSidebar.py` in the directory containing all your Wiki pages, which will generate the \_Sidebar.md file used by GitHub Wiki to display the sidebar/navigation pane
 1. Then, just do `git push` to update the wiki
 
