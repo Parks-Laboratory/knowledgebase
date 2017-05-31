@@ -18,4 +18,4 @@ And these are the actual pages.
 ![image](https://github.com/Parks-Laboratory/knowledgebase/blob/master/images/actual_files.PNG)
 
 ### Acknowledgments
-Inspited by https://github.com/bitmovin/github_wiki_index
+Inspired by https://github.com/bitmovin/github_wiki_index
