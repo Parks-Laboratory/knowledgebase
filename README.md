@@ -18,7 +18,7 @@ The page named _DB_MSSMS_Tools_ appears in the sidebar as DB/MSSMS/Tools, where 
 1. Then, just do `git push` to update the wiki
 
 ### Notes
-And these are the actual pages. 
+These are the actual pages, and how GitHub sees the pages.
 
 ![image](https://github.com/Parks-Laboratory/knowledgebase/blob/master/images/actual_files.PNG)
 
