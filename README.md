@@ -16,3 +16,6 @@ The page named _DB_MSSMS_Tools_ appears in the sidebar as DB/MSSMS/Tools, where 
 And these are the actual pages. 
 
 ![image](https://github.com/Parks-Laboratory/knowledgebase/blob/master/images/actual_files.PNG)
+
+### Acknowledgments
+Inspited by https://github.com/bitmovin/github_wiki_index
