@@ -3,7 +3,7 @@
 See the Wiki tab
 
 ## Generating a custom sidebar for a GitHub wiki 
-The script **mkSidebar.py** relies on encoded filenames to generate a sidebar with nested contents. 
+The script _mkSidebar.py_ relies on encoded filenames to generate a sidebar with nested contents. 
 
 ![image](https://github.com/Parks-Laboratory/knowledgebase/blob/master/images/generated_sidebar.PNG)
 
