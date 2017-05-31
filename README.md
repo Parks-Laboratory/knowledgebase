@@ -22,5 +22,10 @@ These are the actual page names, and how GitHub sees them.
 
 ![image](https://github.com/Parks-Laboratory/knowledgebase/blob/master/images/actual_files.PNG)
 
+### Justification for the approach
+Encoding a directory hierarchy in the filenames was unavoidable from the start because GitHub's wiki generator will display only one file with a given name, making any other identically-named-files inaccessible. Therefore, even organizing files in directories does not create separate namespaces, and if you want related files to appear next to each other in the default 'Pages' navigator, you must encode that relation in the filenames. 
+
+The thought, then, was to make the best of the situation and use this encoding to generate a hierarchical sidebar.
+
 ### Acknowledgments
 Inspired by https://github.com/bitmovin/github_wiki_index
