@@ -2,14 +2,14 @@ import os
 import sys
 
 def createSubHierarchy(root, path, filename):
-	# base case: root is file
 	if len(path) < 1 or not path[0]:
 		return
-	# normal case: root is directory
+	# base case: root is file
 	elif len(path) == 1:
 		root[path[0]] = filename
 		return
 
+	# normal case: root is directory
 	try:
 		newRoot = root[path[0]]
 	except KeyError:
@@ -24,7 +24,7 @@ def writeSubHierarchy(root, sidebar, wikiAddress):
 		# base case: root is file
 		if isinstance(subEntry, str):
 			looseFiles.append('<li><a href="{}">{}</a></li>\n'.format(
-				wikiAddress + os.path.splitext(subEntry)[0].replace(' ', '-'),
+				wikiAddress + os.path.splitext(subEntry)[0],
 				os.path.splitext(subEntry.split('_')[-1])[0]),
 			)
 		# normal case: root is directory
