@@ -13,7 +13,12 @@ The page named _DB_MSSMS_Tools_ appears in the sidebar as DB/MSSMS/Tools, where 
 
 ### Usage
 1. If you have not done so, clone the wiki: `git clone https://github.com/Parks-Laboratory/knowledgebase.wiki.git`
-1. Once the repo is cloned, updating the sidebar can be done by `./update.cmd ` in a BASH shell, by `update.cmd` in a Windows shell, or double-clicking it in Windows File Explorer.  _update.cmd_ is a simple script in the repo consisting of the line:     
+1. Once the repo is cloned, updating the sidebar can be done by executing _update.cmd_ in the directory containing the wiki pages. 
+    * `./update.cmd ` in a BASH shell
+    * `update.cmd` in a Windows shell
+    * double-clicking _update.cmd_ in Windows File Explorer.  
+  
+_update.cmd_ is a simple script in the repo consisting of the line:     
 `git pull && python mkSidebar.py && git commit -a -m "Update sidebar" && git push`
 
 ### Notes
