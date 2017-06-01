@@ -17,9 +17,9 @@ The page named _DB_MSSMS_Tools_ appears in the sidebar as DB/MSSMS/Tools, where 
     * `./update.cmd ` in a BASH shell
     * `update.cmd` in a Windows shell
     * double-clicking _update.cmd_ in Windows File Explorer.  
-  
-_update.cmd_ is a simple script in the repo consisting of the line:     
-`git pull && python mkSidebar.py && git commit -a -m "Update sidebar" && git push`
+    
+   _update.cmd_ is a simple script in the repo consisting of the line:     
+   `git pull && python mkSidebar.py && git commit -a -m "Update sidebar" && git push`
 
 ### Notes
 These are the actual page names, and how GitHub sees them.
