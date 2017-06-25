@@ -7,7 +7,7 @@ The script _mkSidebar.py_ relies on encoded filenames to generate a sidebar with
 
 Underscores are used to create the nesting in the sidebar and each file must have a unique name because the python script assumes the files exist in a flat file structure. 
 
-The page named _DB_MSSMS_Tools_ appears in the sidebar as DB/MSSMS/Tools, where _Tools_ is stored by GitHub as _Tools.md_.
+For example, the page named _DB_MSSMS_Tools_ appears in the sidebar as DB/MSSMS/Tools, where _Tools_ is stored by GitHub as _Tools.md_.
 
 ![image](https://github.com/Parks-Laboratory/knowledgebase/blob/master/images/generated_sidebar.PNG)
 
